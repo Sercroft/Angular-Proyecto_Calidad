@@ -12,13 +12,19 @@
     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
 }
 
+/* CSS GENERALES*/
+h1{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
 /* CSS FORMULARIO LOGIN */
 body{
     background: -webkit-linear-gradient(left, #25c481, #25b7c4);
     background: linear-gradient(to right, #25c481, #25b7c4);
     font-family: 'Roboto', sans-serif;
   }
-  
+
 .excerpt{
     display: -webkit-box;
     -webkit-line-clamp: 4;

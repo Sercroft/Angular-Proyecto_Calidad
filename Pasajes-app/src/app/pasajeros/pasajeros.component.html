@@ -1,0 +1,30 @@
+<div class="card text-bg-light mb-3">
+  <div class="card-header">Pasajeros</div>
+  <div class="card-body">
+    <h5 class="card-title">Lista de Pasajeros</h5>
+
+    <table class="table table-bordered table-striped">
+      <thead>
+        <tr>
+          <th>Id</th>
+          <th>Nombres</th>
+          <th>Apellidos</th>
+          <th>Fecha de nacimiento</th>
+          <th>Usuario</th>
+          <th>Contraseña</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr *ngFor="let p of pasajeros">
+          <td>{{ p.id }}</td>
+          <td>{{ p.nombres }}</td>
+          <td>{{ p.apellidos }}</td>
+          <td>{{ p.fechaDeNacimiento }}</td>
+          <td>{{ p.username }}</td>
+          <td>{{ p.password }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
